@@ -3,26 +3,26 @@
 int main()
 
 {
-    for(int i=1;i<=5;i++)
+    for(int i=1;i<=4;i++)
     {
-        for(int j=4;j>=i;j--)
+        for(int k=3;k>=i;k--)
         {
-            printf(" ");
+            printf("  ");
         }
-        for(int k=1;k<=i;k++)
+        for(int j=1;j<=(2*i)-1;j++)
         {
             printf("* ");
         }
         printf("\n");
     }
 
-    for(int i=1;i<=5;i++)
+    for(int i=3;i>=1;i--)
     {
-        for(int j=1;j<i;j++)
+        for(int k=3;k>=i;k--)
         {
-            printf(" ");
+            printf("  ");
         }
-        for(int k=5;k>=i;k--)
+        for(int j=(2*i-1);j>=1;j--)
         {
             printf("* ");
         }
